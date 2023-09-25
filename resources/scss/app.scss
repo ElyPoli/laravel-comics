@@ -127,3 +127,25 @@ FOOTER
         transform: scale(0.93);
     }
 }
+
+.my-footer-copyright {
+    margin-top: -120px;
+
+    p {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    span {
+        color: $primary-color;
+        cursor: pointer;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
