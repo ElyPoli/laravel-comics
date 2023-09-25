@@ -1,19 +1,10 @@
-@vite(['resources/scss/app.scss', 'resources/js/app.js'])
+{{-- Indico il layout che intendo utilizzare --}}
+@extends('layouts.public')
 
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+{{-- Indico il titolo della pagina --}}
+@section('title', 'Laravel comics - Home')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Esercizio 54: Laravel comics</title>
-
-    <!-- Icona -->
-    <link rel="icon" href="{{ asset('img/favicon.ico') }}">
-</head>
-
-<body>
-</body>
-
-</html>
+{{-- Indico il contenuto principale della pagina --}}
+@section('content')
+    <h1>Contenuto Home</h1>
+@endsection
