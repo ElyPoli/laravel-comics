@@ -21,6 +21,8 @@
         {{-- Segnaposto per il contenuto principale di ogni pagina --}}
         @yield('content')
     </main>
+    {{-- Includo il footer --}}
+    @include('partials.footer')
 </body>
 
 </html>

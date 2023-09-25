@@ -47,6 +47,53 @@ Route::get('/', function () {
             [
                 "name" => "shop",
             ]
+        ],
+        "footerLinks" => [
+            [
+                "title" => "DC comics",
+                "subheading" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News",
+                ]
+            ],
+            [
+                "title" => "Shop",
+                "subheading" => [
+                    "Shop DC",
+                    "Shop DC collectibles",
+                ]
+            ],
+            [
+                "title" => "DC",
+                "subheading" => [
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us",
+                ]
+            ],
+            [
+                "title" => "Sites",
+                "subheading" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa",
+                ]
+            ]
         ]
     ];
 
