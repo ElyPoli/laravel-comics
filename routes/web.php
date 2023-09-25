@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Config;
 
 /*
 |--------------------------------------------------------------------------
@@ -94,7 +95,30 @@ Route::get('/', function () {
                     "DC Power Visa",
                 ]
             ]
-        ]
+        ],
+        "bannerLinks" => [
+            [
+                "name" => "digital comics",
+                "srcImg" => "img/buy-comics-digital-comics.png",
+            ],
+            [
+                "name" => "dc merchandise",
+                "srcImg" => "img/buy-comics-merchandise.png",
+            ],
+            [
+                "name" => "subscriptions",
+                "srcImg" => "img/buy-comics-subscriptions.png",
+            ],
+            [
+                "name" => "comic shop locator",
+                "srcImg" => "img/buy-comics-shop-locator.png",
+            ],
+            [
+                "name" => "dc power visa",
+                "srcImg" => "img/buy-dc-power-visa.svg",
+            ]
+        ],
+        "comics" => Config::get('comics'),
     ];
 
     return view('home', $data);

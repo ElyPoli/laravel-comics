@@ -70,6 +70,23 @@ NAVBAR
 }
 
 /*
+BANNER
+*/
+.banner {
+    background-color: $primary-color;
+
+    img {
+        max-width: 100%;
+        max-height: 40px;
+        height: auto;
+    }
+
+    p {
+        font-size: .8rem;
+    }
+}
+
+/*
 FOOTER
 */
 .top-footer {
