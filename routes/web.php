@@ -125,41 +125,861 @@ Route::get('/', function () {
 });
 
 Route::get('characters', function () {
-    return view('characters');
+    $data = [
+        "navLinks" => [
+            [
+                "name" => "characters",
+            ],
+            [
+                "name" => "comics",
+            ],
+            [
+                "name" => "movies",
+            ],
+            [
+                "name" => "tv",
+            ],
+            [
+                "name" => "games",
+            ],
+            [
+                "name" => "collectibles",
+            ],
+            [
+                "name" => "videos",
+            ],
+            [
+                "name" => "fans",
+            ],
+            [
+                "name" => "news",
+            ],
+            [
+                "name" => "shop",
+            ]
+        ],
+        "footerLinks" => [
+            [
+                "title" => "DC comics",
+                "subheading" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News",
+                ]
+            ],
+            [
+                "title" => "Shop",
+                "subheading" => [
+                    "Shop DC",
+                    "Shop DC collectibles",
+                ]
+            ],
+            [
+                "title" => "DC",
+                "subheading" => [
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us",
+                ]
+            ],
+            [
+                "title" => "Sites",
+                "subheading" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa",
+                ]
+            ]
+        ]
+    ];
+
+    return view('characters', $data);
 });
 
 Route::get('comics', function () {
-    return view('comics');
+    $data = [
+        "navLinks" => [
+            [
+                "name" => "characters",
+            ],
+            [
+                "name" => "comics",
+            ],
+            [
+                "name" => "movies",
+            ],
+            [
+                "name" => "tv",
+            ],
+            [
+                "name" => "games",
+            ],
+            [
+                "name" => "collectibles",
+            ],
+            [
+                "name" => "videos",
+            ],
+            [
+                "name" => "fans",
+            ],
+            [
+                "name" => "news",
+            ],
+            [
+                "name" => "shop",
+            ]
+        ],
+        "footerLinks" => [
+            [
+                "title" => "DC comics",
+                "subheading" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News",
+                ]
+            ],
+            [
+                "title" => "Shop",
+                "subheading" => [
+                    "Shop DC",
+                    "Shop DC collectibles",
+                ]
+            ],
+            [
+                "title" => "DC",
+                "subheading" => [
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us",
+                ]
+            ],
+            [
+                "title" => "Sites",
+                "subheading" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa",
+                ]
+            ]
+        ]
+    ];
+
+    return view('comics', $data);
 });
 
 Route::get('movies', function () {
-    return view('movies');
+    $data = [
+        "navLinks" => [
+            [
+                "name" => "characters",
+            ],
+            [
+                "name" => "comics",
+            ],
+            [
+                "name" => "movies",
+            ],
+            [
+                "name" => "tv",
+            ],
+            [
+                "name" => "games",
+            ],
+            [
+                "name" => "collectibles",
+            ],
+            [
+                "name" => "videos",
+            ],
+            [
+                "name" => "fans",
+            ],
+            [
+                "name" => "news",
+            ],
+            [
+                "name" => "shop",
+            ]
+        ],
+        "footerLinks" => [
+            [
+                "title" => "DC comics",
+                "subheading" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News",
+                ]
+            ],
+            [
+                "title" => "Shop",
+                "subheading" => [
+                    "Shop DC",
+                    "Shop DC collectibles",
+                ]
+            ],
+            [
+                "title" => "DC",
+                "subheading" => [
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us",
+                ]
+            ],
+            [
+                "title" => "Sites",
+                "subheading" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa",
+                ]
+            ]
+        ]
+    ];
+
+    return view('movies', $data);
 });
 
 Route::get('tv', function () {
-    return view('tv');
+    $data = [
+        "navLinks" => [
+            [
+                "name" => "characters",
+            ],
+            [
+                "name" => "comics",
+            ],
+            [
+                "name" => "movies",
+            ],
+            [
+                "name" => "tv",
+            ],
+            [
+                "name" => "games",
+            ],
+            [
+                "name" => "collectibles",
+            ],
+            [
+                "name" => "videos",
+            ],
+            [
+                "name" => "fans",
+            ],
+            [
+                "name" => "news",
+            ],
+            [
+                "name" => "shop",
+            ]
+        ],
+        "footerLinks" => [
+            [
+                "title" => "DC comics",
+                "subheading" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News",
+                ]
+            ],
+            [
+                "title" => "Shop",
+                "subheading" => [
+                    "Shop DC",
+                    "Shop DC collectibles",
+                ]
+            ],
+            [
+                "title" => "DC",
+                "subheading" => [
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us",
+                ]
+            ],
+            [
+                "title" => "Sites",
+                "subheading" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa",
+                ]
+            ]
+        ]
+    ];
+
+    return view('tv', $data);
 });
 
 Route::get('games', function () {
-    return view('games');
+    $data = [
+        "navLinks" => [
+            [
+                "name" => "characters",
+            ],
+            [
+                "name" => "comics",
+            ],
+            [
+                "name" => "movies",
+            ],
+            [
+                "name" => "tv",
+            ],
+            [
+                "name" => "games",
+            ],
+            [
+                "name" => "collectibles",
+            ],
+            [
+                "name" => "videos",
+            ],
+            [
+                "name" => "fans",
+            ],
+            [
+                "name" => "news",
+            ],
+            [
+                "name" => "shop",
+            ]
+        ],
+        "footerLinks" => [
+            [
+                "title" => "DC comics",
+                "subheading" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News",
+                ]
+            ],
+            [
+                "title" => "Shop",
+                "subheading" => [
+                    "Shop DC",
+                    "Shop DC collectibles",
+                ]
+            ],
+            [
+                "title" => "DC",
+                "subheading" => [
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us",
+                ]
+            ],
+            [
+                "title" => "Sites",
+                "subheading" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa",
+                ]
+            ]
+        ]
+    ];
+
+    return view('games', $data);
 });
 
 Route::get('collectibles', function () {
-    return view('collectibles');
+    $data = [
+        "navLinks" => [
+            [
+                "name" => "characters",
+            ],
+            [
+                "name" => "comics",
+            ],
+            [
+                "name" => "movies",
+            ],
+            [
+                "name" => "tv",
+            ],
+            [
+                "name" => "games",
+            ],
+            [
+                "name" => "collectibles",
+            ],
+            [
+                "name" => "videos",
+            ],
+            [
+                "name" => "fans",
+            ],
+            [
+                "name" => "news",
+            ],
+            [
+                "name" => "shop",
+            ]
+        ],
+        "footerLinks" => [
+            [
+                "title" => "DC comics",
+                "subheading" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News",
+                ]
+            ],
+            [
+                "title" => "Shop",
+                "subheading" => [
+                    "Shop DC",
+                    "Shop DC collectibles",
+                ]
+            ],
+            [
+                "title" => "DC",
+                "subheading" => [
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us",
+                ]
+            ],
+            [
+                "title" => "Sites",
+                "subheading" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa",
+                ]
+            ]
+        ]
+    ];
+
+    return view('collectibles', $data);
 });
 
 Route::get('videos', function () {
-    return view('videos');
+    $data = [
+        "navLinks" => [
+            [
+                "name" => "characters",
+            ],
+            [
+                "name" => "comics",
+            ],
+            [
+                "name" => "movies",
+            ],
+            [
+                "name" => "tv",
+            ],
+            [
+                "name" => "games",
+            ],
+            [
+                "name" => "collectibles",
+            ],
+            [
+                "name" => "videos",
+            ],
+            [
+                "name" => "fans",
+            ],
+            [
+                "name" => "news",
+            ],
+            [
+                "name" => "shop",
+            ]
+        ],
+        "footerLinks" => [
+            [
+                "title" => "DC comics",
+                "subheading" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News",
+                ]
+            ],
+            [
+                "title" => "Shop",
+                "subheading" => [
+                    "Shop DC",
+                    "Shop DC collectibles",
+                ]
+            ],
+            [
+                "title" => "DC",
+                "subheading" => [
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us",
+                ]
+            ],
+            [
+                "title" => "Sites",
+                "subheading" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa",
+                ]
+            ]
+        ]
+    ];
+
+    return view('videos', $data);
 });
 
 Route::get('fans', function () {
-    return view('fans');
+    $data = [
+        "navLinks" => [
+            [
+                "name" => "characters",
+            ],
+            [
+                "name" => "comics",
+            ],
+            [
+                "name" => "movies",
+            ],
+            [
+                "name" => "tv",
+            ],
+            [
+                "name" => "games",
+            ],
+            [
+                "name" => "collectibles",
+            ],
+            [
+                "name" => "videos",
+            ],
+            [
+                "name" => "fans",
+            ],
+            [
+                "name" => "news",
+            ],
+            [
+                "name" => "shop",
+            ]
+        ],
+        "footerLinks" => [
+            [
+                "title" => "DC comics",
+                "subheading" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News",
+                ]
+            ],
+            [
+                "title" => "Shop",
+                "subheading" => [
+                    "Shop DC",
+                    "Shop DC collectibles",
+                ]
+            ],
+            [
+                "title" => "DC",
+                "subheading" => [
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us",
+                ]
+            ],
+            [
+                "title" => "Sites",
+                "subheading" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa",
+                ]
+            ]
+        ]
+    ];
+
+    return view('fans', $data);
 });
 
 Route::get('news', function () {
-    return view('news');
+    $data = [
+        "navLinks" => [
+            [
+                "name" => "characters",
+            ],
+            [
+                "name" => "comics",
+            ],
+            [
+                "name" => "movies",
+            ],
+            [
+                "name" => "tv",
+            ],
+            [
+                "name" => "games",
+            ],
+            [
+                "name" => "collectibles",
+            ],
+            [
+                "name" => "videos",
+            ],
+            [
+                "name" => "fans",
+            ],
+            [
+                "name" => "news",
+            ],
+            [
+                "name" => "shop",
+            ]
+        ],
+        "footerLinks" => [
+            [
+                "title" => "DC comics",
+                "subheading" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News",
+                ]
+            ],
+            [
+                "title" => "Shop",
+                "subheading" => [
+                    "Shop DC",
+                    "Shop DC collectibles",
+                ]
+            ],
+            [
+                "title" => "DC",
+                "subheading" => [
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us",
+                ]
+            ],
+            [
+                "title" => "Sites",
+                "subheading" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa",
+                ]
+            ]
+        ]
+    ];
+
+    return view('news', $data);
 });
 
 Route::get('shop', function () {
-    return view('shop');
+    $data = [
+        "navLinks" => [
+            [
+                "name" => "characters",
+            ],
+            [
+                "name" => "comics",
+            ],
+            [
+                "name" => "movies",
+            ],
+            [
+                "name" => "tv",
+            ],
+            [
+                "name" => "games",
+            ],
+            [
+                "name" => "collectibles",
+            ],
+            [
+                "name" => "videos",
+            ],
+            [
+                "name" => "fans",
+            ],
+            [
+                "name" => "news",
+            ],
+            [
+                "name" => "shop",
+            ]
+        ],
+        "footerLinks" => [
+            [
+                "title" => "DC comics",
+                "subheading" => [
+                    "Characters",
+                    "Comics",
+                    "Movies",
+                    "TV",
+                    "Games",
+                    "Videos",
+                    "News",
+                ]
+            ],
+            [
+                "title" => "Shop",
+                "subheading" => [
+                    "Shop DC",
+                    "Shop DC collectibles",
+                ]
+            ],
+            [
+                "title" => "DC",
+                "subheading" => [
+                    "Terms Of Use",
+                    "Privacy policy (New)",
+                    "Ad Choices",
+                    "Advertising",
+                    "Jobs",
+                    "Subscriptions",
+                    "Talent Workshops",
+                    "CPSC Certificates",
+                    "Ratings",
+                    "Shop Help",
+                    "Contact Us",
+                ]
+            ],
+            [
+                "title" => "Sites",
+                "subheading" => [
+                    "DC",
+                    "MAD Magazine",
+                    "DC Kids",
+                    "DC Universe",
+                    "DC Power Visa",
+                ]
+            ]
+        ]
+    ];
+
+    return view('shop', $data);
 });
